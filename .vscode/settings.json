@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "lv_examples.h": "c",
+        "lv_demo_widgets.h": "c",
+        "lv_demos.h": "c",
+        "lv_100ask_teach_demos.h": "c",
+        "lv_100ask_teach_demos_conf.h": "c",
+        "lvgl.h": "c",
+        "lv_widgets.h": "c",
+        "fbdev.h": "c",
+        "lv_demo_printer.h": "c",
+        "ui_helpers.h": "c",
+        "ui.h": "c"
+    }
+}
