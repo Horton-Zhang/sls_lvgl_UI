@@ -1,0 +1,198 @@
+The target system is: Generic -  - aarch64
+The host system is: Linux - 5.4.0-150-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/aarch64-none-linux-gnu-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/book/3d_printer_pi/build/CMakeFiles/3.10.2/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/book/3d_printer_pi/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cd9a3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cd9a3.dir/build.make CMakeFiles/cmTC_cd9a3.dir/build
+make[1]: Entering directory '/home/book/3d_printer_pi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cd9a3.dir/testCCompiler.c.obj
+/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/aarch64-none-linux-gnu-gcc   -std=gnu11 -o CMakeFiles/cmTC_cd9a3.dir/testCCompiler.c.obj   -c /home/book/3d_printer_pi/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_cd9a3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd9a3.dir/link.txt --verbose=1
+/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/aarch64-none-linux-gnu-gcc      CMakeFiles/cmTC_cd9a3.dir/testCCompiler.c.obj  -o cmTC_cd9a3 
+make[1]: Leaving directory '/home/book/3d_printer_pi/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/book/3d_printer_pi/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b4f5b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b4f5b.dir/build.make CMakeFiles/cmTC_b4f5b.dir/build
+make[1]: Entering directory '/home/book/3d_printer_pi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b4f5b.dir/CMakeCCompilerABI.c.obj
+/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/aarch64-none-linux-gnu-gcc   -std=gnu11 -o CMakeFiles/cmTC_b4f5b.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_b4f5b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4f5b.dir/link.txt --verbose=1
+/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/aarch64-none-linux-gnu-gcc     -v CMakeFiles/cmTC_b4f5b.dir/CMakeCCompilerABI.c.obj  -o cmTC_b4f5b 
+Using built-in specs.
+COLLECT_GCC=/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/aarch64-none-linux-gnu-gcc
+COLLECT_LTO_WRAPPER=/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../libexec/gcc/aarch64-none-linux-gnu/12.3.1/lto-wrapper
+Target: aarch64-none-linux-gnu
+Configured with: /data/jenkins/workspace/GNU-toolchain/arm-12/src/gcc/configure --target=aarch64-none-linux-gnu --prefix= --with-sysroot=/aarch64-none-linux-gnu/libc --with-build-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-12/build-aarch64-none-linux-gnu/install//aarch64-none-linux-gnu/libc --with-bugurl=https://bugs.linaro.org/ --enable-gnu-indirect-function --enable-shared --disable-libssp --disable-libmudflap --enable-checking=release --enable-languages=c,c++,fortran --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-12/build-aarch64-none-linux-gnu/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-12/build-aarch64-none-linux-gnu/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-12/build-aarch64-none-linux-gnu/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-12/build-aarch64-none-linux-gnu/host-tools --enable-fix-cortex-a53-843419 --with-pkgversion='Arm GNU Toolchain 12.3.Rel1 (Build arm-12.35)'
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 12.3.1 20230626 (Arm GNU Toolchain 12.3.Rel1 (Build arm-12.35)) 
+COMPILER_PATH=/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../libexec/gcc/aarch64-none-linux-gnu/12.3.1/:/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../libexec/gcc/:/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/12.3.1/../../../../aarch64-none-linux-gnu/bin/
+LIBRARY_PATH=/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/12.3.1/:/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/:/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/12.3.1/../../../../aarch64-none-linux-gnu/lib/../lib64/:/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../aarch64-none-linux-gnu/libc/lib/../lib64/:/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../aarch64-none-linux-gnu/libc/usr/lib/../lib64/:/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/12.3.1/../../../../aarch64-none-linux-gnu/lib/:/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../aarch64-none-linux-gnu/libc/lib/:/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../aarch64-none-linux-gnu/libc/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b4f5b' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_b4f5b.'
+ /home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../libexec/gcc/aarch64-none-linux-gnu/12.3.1/collect2 -plugin /home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../libexec/gcc/aarch64-none-linux-gnu/12.3.1/liblto_plugin.so -plugin-opt=/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../libexec/gcc/aarch64-none-linux-gnu/12.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3Ijk2y.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../aarch64-none-linux-gnu/libc --eh-frame-hdr -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -o cmTC_b4f5b /home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../aarch64-none-linux-gnu/libc/usr/lib/../lib64/crt1.o /home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../aarch64-none-linux-gnu/libc/usr/lib/../lib64/crti.o /home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/12.3.1/crtbegin.o -L/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/12.3.1 -L/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc -L/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/12.3.1/../../../../aarch64-none-linux-gnu/lib/../lib64 -L/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../aarch64-none-linux-gnu/libc/lib/../lib64 -L/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../aarch64-none-linux-gnu/libc/usr/lib/../lib64 -L/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/12.3.1/../../../../aarch64-none-linux-gnu/lib -L/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../aarch64-none-linux-gnu/libc/lib -L/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../aarch64-none-linux-gnu/libc/usr/lib CMakeFiles/cmTC_b4f5b.dir/CMakeCCompilerABI.c.obj -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/12.3.1/crtend.o /home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../aarch64-none-linux-gnu/libc/usr/lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b4f5b' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_b4f5b.'
+make[1]: Leaving directory '/home/book/3d_printer_pi/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(aarch64-none-linux-gnu-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/book/3d_printer_pi/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_b4f5b/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_b4f5b.dir/build.make CMakeFiles/cmTC_b4f5b.dir/build]
+  ignore line: [make[1]: Entering directory '/home/book/3d_printer_pi/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_b4f5b.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/aarch64-none-linux-gnu-gcc   -std=gnu11 -o CMakeFiles/cmTC_b4f5b.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_b4f5b]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4f5b.dir/link.txt --verbose=1]
+  ignore line: [/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/aarch64-none-linux-gnu-gcc     -v CMakeFiles/cmTC_b4f5b.dir/CMakeCCompilerABI.c.obj  -o cmTC_b4f5b ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/aarch64-none-linux-gnu-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../libexec/gcc/aarch64-none-linux-gnu/12.3.1/lto-wrapper]
+  ignore line: [Target: aarch64-none-linux-gnu]
+  ignore line: [Configured with: /data/jenkins/workspace/GNU-toolchain/arm-12/src/gcc/configure --target=aarch64-none-linux-gnu --prefix= --with-sysroot=/aarch64-none-linux-gnu/libc --with-build-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-12/build-aarch64-none-linux-gnu/install//aarch64-none-linux-gnu/libc --with-bugurl=https://bugs.linaro.org/ --enable-gnu-indirect-function --enable-shared --disable-libssp --disable-libmudflap --enable-checking=release --enable-languages=c,c++,fortran --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-12/build-aarch64-none-linux-gnu/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-12/build-aarch64-none-linux-gnu/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-12/build-aarch64-none-linux-gnu/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-12/build-aarch64-none-linux-gnu/host-tools --enable-fix-cortex-a53-843419 --with-pkgversion='Arm GNU Toolchain 12.3.Rel1 (Build arm-12.35)']
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 12.3.1 20230626 (Arm GNU Toolchain 12.3.Rel1 (Build arm-12.35)) ]
+  ignore line: [COMPILER_PATH=/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../libexec/gcc/aarch64-none-linux-gnu/12.3.1/:/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../libexec/gcc/:/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/12.3.1/../../../../aarch64-none-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/12.3.1/:/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/:/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/12.3.1/../../../../aarch64-none-linux-gnu/lib/../lib64/:/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../aarch64-none-linux-gnu/libc/lib/../lib64/:/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../aarch64-none-linux-gnu/libc/usr/lib/../lib64/:/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/12.3.1/../../../../aarch64-none-linux-gnu/lib/:/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../aarch64-none-linux-gnu/libc/lib/:/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../aarch64-none-linux-gnu/libc/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b4f5b' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_b4f5b.']
+  link line: [ /home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../libexec/gcc/aarch64-none-linux-gnu/12.3.1/collect2 -plugin /home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../libexec/gcc/aarch64-none-linux-gnu/12.3.1/liblto_plugin.so -plugin-opt=/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../libexec/gcc/aarch64-none-linux-gnu/12.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3Ijk2y.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../aarch64-none-linux-gnu/libc --eh-frame-hdr -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -o cmTC_b4f5b /home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../aarch64-none-linux-gnu/libc/usr/lib/../lib64/crt1.o /home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../aarch64-none-linux-gnu/libc/usr/lib/../lib64/crti.o /home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/12.3.1/crtbegin.o -L/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/12.3.1 -L/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc -L/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/12.3.1/../../../../aarch64-none-linux-gnu/lib/../lib64 -L/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../aarch64-none-linux-gnu/libc/lib/../lib64 -L/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../aarch64-none-linux-gnu/libc/usr/lib/../lib64 -L/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/12.3.1/../../../../aarch64-none-linux-gnu/lib -L/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../aarch64-none-linux-gnu/libc/lib -L/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../aarch64-none-linux-gnu/libc/usr/lib CMakeFiles/cmTC_b4f5b.dir/CMakeCCompilerABI.c.obj -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/12.3.1/crtend.o /home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../aarch64-none-linux-gnu/libc/usr/lib/../lib64/crtn.o]
+    arg [/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../libexec/gcc/aarch64-none-linux-gnu/12.3.1/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../libexec/gcc/aarch64-none-linux-gnu/12.3.1/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../libexec/gcc/aarch64-none-linux-gnu/12.3.1/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc3Ijk2y.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../aarch64-none-linux-gnu/libc] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-maarch64linux] ==> ignore
+    arg [--fix-cortex-a53-843419] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_b4f5b] ==> ignore
+    arg [/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../aarch64-none-linux-gnu/libc/usr/lib/../lib64/crt1.o] ==> ignore
+    arg [/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../aarch64-none-linux-gnu/libc/usr/lib/../lib64/crti.o] ==> ignore
+    arg [/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/12.3.1/crtbegin.o] ==> ignore
+    arg [-L/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/12.3.1] ==> dir [/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/12.3.1]
+    arg [-L/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc] ==> dir [/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc]
+    arg [-L/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/12.3.1/../../../../aarch64-none-linux-gnu/lib/../lib64] ==> dir [/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/12.3.1/../../../../aarch64-none-linux-gnu/lib/../lib64]
+    arg [-L/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../aarch64-none-linux-gnu/libc/lib/../lib64] ==> dir [/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../aarch64-none-linux-gnu/libc/lib/../lib64]
+    arg [-L/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../aarch64-none-linux-gnu/libc/usr/lib/../lib64] ==> dir [/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../aarch64-none-linux-gnu/libc/usr/lib/../lib64]
+    arg [-L/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/12.3.1/../../../../aarch64-none-linux-gnu/lib] ==> dir [/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/12.3.1/../../../../aarch64-none-linux-gnu/lib]
+    arg [-L/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../aarch64-none-linux-gnu/libc/lib] ==> dir [/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../aarch64-none-linux-gnu/libc/lib]
+    arg [-L/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../aarch64-none-linux-gnu/libc/usr/lib] ==> dir [/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../aarch64-none-linux-gnu/libc/usr/lib]
+    arg [CMakeFiles/cmTC_b4f5b.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/12.3.1/crtend.o] ==> ignore
+    arg [/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../aarch64-none-linux-gnu/libc/usr/lib/../lib64/crtn.o] ==> ignore
+  collapse library dir [/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/12.3.1] ==> [/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/lib/gcc/aarch64-none-linux-gnu/12.3.1]
+  collapse library dir [/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc] ==> [/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/lib/gcc]
+  collapse library dir [/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/12.3.1/../../../../aarch64-none-linux-gnu/lib/../lib64] ==> [/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/aarch64-none-linux-gnu/lib64]
+  collapse library dir [/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../aarch64-none-linux-gnu/libc/lib/../lib64] ==> [/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/aarch64-none-linux-gnu/libc/lib64]
+  collapse library dir [/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../aarch64-none-linux-gnu/libc/usr/lib/../lib64] ==> [/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/aarch64-none-linux-gnu/libc/usr/lib64]
+  collapse library dir [/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/12.3.1/../../../../aarch64-none-linux-gnu/lib] ==> [/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/aarch64-none-linux-gnu/lib]
+  collapse library dir [/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../aarch64-none-linux-gnu/libc/lib] ==> [/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/aarch64-none-linux-gnu/libc/lib]
+  collapse library dir [/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/../aarch64-none-linux-gnu/libc/usr/lib] ==> [/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/aarch64-none-linux-gnu/libc/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/lib/gcc/aarch64-none-linux-gnu/12.3.1;/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/lib/gcc;/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/aarch64-none-linux-gnu/lib64;/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/aarch64-none-linux-gnu/libc/lib64;/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/aarch64-none-linux-gnu/libc/usr/lib64;/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/aarch64-none-linux-gnu/lib;/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/aarch64-none-linux-gnu/libc/lib;/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/aarch64-none-linux-gnu/libc/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/book/3d_printer_pi/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4df54/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4df54.dir/build.make CMakeFiles/cmTC_4df54.dir/build
+make[1]: Entering directory '/home/book/3d_printer_pi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4df54.dir/feature_tests.c.obj
+/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/aarch64-none-linux-gnu-gcc   -std=c11 -std=gnu11 -o CMakeFiles/cmTC_4df54.dir/feature_tests.c.obj   -c /home/book/3d_printer_pi/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_4df54
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4df54.dir/link.txt --verbose=1
+/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/aarch64-none-linux-gnu-gcc      CMakeFiles/cmTC_4df54.dir/feature_tests.c.obj  -o cmTC_4df54 
+make[1]: Leaving directory '/home/book/3d_printer_pi/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/book/3d_printer_pi/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6f825/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6f825.dir/build.make CMakeFiles/cmTC_6f825.dir/build
+make[1]: Entering directory '/home/book/3d_printer_pi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6f825.dir/feature_tests.c.obj
+/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/aarch64-none-linux-gnu-gcc   -std=c99 -std=gnu11 -o CMakeFiles/cmTC_6f825.dir/feature_tests.c.obj   -c /home/book/3d_printer_pi/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_6f825
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f825.dir/link.txt --verbose=1
+/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/aarch64-none-linux-gnu-gcc      CMakeFiles/cmTC_6f825.dir/feature_tests.c.obj  -o cmTC_6f825 
+make[1]: Leaving directory '/home/book/3d_printer_pi/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/book/3d_printer_pi/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bdfde/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bdfde.dir/build.make CMakeFiles/cmTC_bdfde.dir/build
+make[1]: Entering directory '/home/book/3d_printer_pi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bdfde.dir/feature_tests.c.obj
+/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/aarch64-none-linux-gnu-gcc   -std=c90 -std=gnu11 -o CMakeFiles/cmTC_bdfde.dir/feature_tests.c.obj   -c /home/book/3d_printer_pi/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_bdfde
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bdfde.dir/link.txt --verbose=1
+/home/book/raspberry_toolchain/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu/bin/aarch64-none-linux-gnu-gcc      CMakeFiles/cmTC_bdfde.dir/feature_tests.c.obj  -o cmTC_bdfde 
+make[1]: Leaving directory '/home/book/3d_printer_pi/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
