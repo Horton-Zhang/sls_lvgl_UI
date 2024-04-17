@@ -1,7 +1,11 @@
 #!/bin/sh
 #
 # Start lvgl....
-#
+# 需要将该文件放在init.d中，同时改变权限，实现自动启动：
+# cp S99app ~/nfs_rootfs/    # 将文件放到挂载文件夹内
+# cp /mnt /ete/init.d    # 在开发板上将文件放到/ete/init.d内
+# chmod 777 S99app
+# chown root S99app
 
 
 start() {
